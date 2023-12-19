@@ -1,0 +1,102 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    padding: 3px;
+}
+
+nav {
+    padding: 3px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    padding: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid darkgreen;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header{
+    background-image:url(image/OIP.jpg) ;
+    text-align: left;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px;
+    text-transform: uppercase;
+    border: 5px solid black;
+    border-bottom: 2px solid black;
+    margin-left: 5px;
+    margin-left: 5px;
+}
+a:hover{
+    background-color: antiquewhite;
+}
+body{
+    background-image:url(image/OIP.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: lightblue;
+}
+nav{
+    text-align: right;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+h2{
+    text-align: left;
+    padding: 15px;
+    font-size: 30px;
+    background-color: azure;
+}
+
+p{
+    font-size: 25px;
+    color: black;
+    font-family: Arial;
+    padding: 15px;
+    background-color: azure;
+}
+ol{
+    font-size: 20px;
+    font-family: Arial;
+    background-color: lightcyan;
+}
+footer{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
